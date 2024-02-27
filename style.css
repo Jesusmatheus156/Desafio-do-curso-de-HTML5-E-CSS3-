@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url("fontes/idroid.otf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&display=swap');
+
+
+/* variaveis no html */
+
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+
+    --fonte-padrao: arial, helvetica, sans-serif;
+    --fonte-destaque: 'bebas neue', 'cursive';
+    --fonte-android: 'idroid','cursive';
+}
+
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+
+header {
+    background: linear-gradient(to bottom, var(--cor1), var(--cor6));
+    height: 140px;
+
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-android);
+    text-align: center;
+    margin-bottom: ;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--cor6);
+    padding-top: -30px;
+    padding: 10px;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+main {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 4px;
+    margin-top: 0px;
+}
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.fundo {
+    background-color: #113b26;
+}
+
+footer {
+    text-align: center;
+    background-color: #113b26;
+    padding: 5px;
+}
+
+footer>p {
+    color: white;
+}
